@@ -20,7 +20,7 @@ $(document).ready(function() {
           }
  
           //getJSON
-          $.getJSON( "assets/venues/"+encodeURIComponent(userInput)+".json", function( data ) {
+          $.getJSON( "https://venues.cashmusic.org/venues/"+encodeURIComponent(userInput)+".json", function( data ) {
  
              if (data.results != "") {
                 var items = [];
