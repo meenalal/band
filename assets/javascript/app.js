@@ -13,17 +13,6 @@ $(document).ready(function() {
  
  
           if ($("#keyword").val() != ""){
-            var queryURL = "cashmusic.org/venues/" + userInput
-            ajax({
-                url: queryURL,
-                method: "GET"
-                 
-                
-            })
-            .done(function(response){
-                var results= response.data
-                results['results']
-            })
              var userInput = $('#keyword').val();
           }
           else if (dirs != "") {
@@ -31,7 +20,7 @@ $(document).ready(function() {
           }
  
           //getJSON
-          $.getJSON( "/venues/"+encodeURIComponent(userInput), function( data ) {
+          $.getJSON( "/assets/venues/"+encodeURIComponent(userInput)+".json", function( data ) {
  
              if (data.results != "") {
                 var items = [];
