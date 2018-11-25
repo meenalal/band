@@ -20,7 +20,7 @@ $(document).ready(function() {
           }
  
           //getJSON
-          $.getJSON( "/assets/venues/"+encodeURIComponent(userInput)+".json", function( data ) {
+          $.getJSON( "band/assets/venues/"+encodeURIComponent(userInput)+".json", function( data ) {
  
              if (data.results != "") {
                 var items = [];
