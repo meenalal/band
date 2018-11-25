@@ -86,7 +86,7 @@ $(document).ready(function() {
  
        var url_state = "";
        if ($(this).val().length > 2) {
-          var url_state = "/venues/"+encodeURIComponent($(this).val())+".html";
+          var url_state = "";
        }
  
        if ($(this).val().length < 3) {
