@@ -20,7 +20,7 @@ $(document).ready(function() {
           }
  
           //getJSON
-          $.getJSON( "band/assets/venues/"+encodeURIComponent(userInput)+".json", function( data ) {
+          $.getJSON( "/"+encodeURIComponent(userInput)+".json", function( data ) {
  
              if (data.results != "") {
                 var items = [];
@@ -86,7 +86,7 @@ $(document).ready(function() {
  
        var url_state = "";
        if ($(this).val().length > 2) {
-          var url_state = "assets/venues/"+encodeURIComponent($(this).val())+".html";
+          var url_state = "band/assets/venues/"+encodeURIComponent($(this).val())+".html";
        }
  
        if ($(this).val().length < 3) {
