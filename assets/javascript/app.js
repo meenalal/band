@@ -20,7 +20,7 @@ $(document).ready(function() {
           }
  
           //getJSON
-          $.getJSON( "/"+encodeURIComponent(userInput)+".json", function( data ) {
+          $.getJSON( "https://meenalal.github.io/band/assets/venues/"+encodeURIComponent(userInput)+".json", function( data ) {
  
              if (data.results != "") {
                 var items = [];
