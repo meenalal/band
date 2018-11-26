@@ -25,7 +25,7 @@ $(document).ready(function() {
              if (data.results != "") {
                 var items = [];
                 $(data.results).each(function (index, item) {
-                   finalMarkup = "<div class='result' id='" + item.id + "'><a class='card' href='band/venue/venue.html'><h1>" + item.name + "</h1><div class='address'>";
+                   finalMarkup = "<div class='result' id='" + item.id + "'><a class='card' href='band/assets/venue/venue.html'><h1>" + item.name + "</h1><div class='address'>";
                    if (item.address1) {
                       finalMarkup += "<p>" + item.address1 + "</p>";
                    }
