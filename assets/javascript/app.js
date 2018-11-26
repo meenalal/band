@@ -118,6 +118,37 @@ $(document).ready(function() {
        parent.history.back();
        return false;
     });
+
+    var entryreplace = function(){
+
+      mu = `<div id="card">
+            <div class="front">
+              <h1>Walt Disney Concert Hall</h1>
+              <div class="inner">
+                  <p>111 S. Grand Ave.</p>
+                  <p>Los Angeles </p>
+                  <p>CA</p>
+                  <p>USA</p>
+              </div><!--inner-->
+              
+              <div class="location">
+                  Location:
+                  <p>Latitude: <strong>34.058872</strong></p>
+                  <p>Longitude: <strong>-118.245740</strong></p>
+                  <a target="_blank" href="http://maps.google.com/maps?q=34.058872,-118.245740&z=10">View map</a>
+              </div><!--location-->
+              <p>Creation Date: October 12, 2015</p>
+              
+              <p class='uuid'><span class='title'>UUID</span><span class='id'>56155870e3626</span></p>
+              <p class="code">
+                  <strong>API Endpoint: </strong><a href="/venue/56155870e3626">/venue/56155870e3626</a><br />
+                  <strong>API Response: </strong> {&quot;UUID&quot;:&quot;56155870e3626&quot;,&quot;name&quot;:&quot;Walt Disney Concert Hall&quot;,&quot;address1&quot;:&quot;111 S. Grand Ave.&quot;,&quot;address2&quot;:null,&quot;city&quot;:&quot;Los Angeles &quot;,&quot;region&quot;:&quot;CA&quot;,&quot;country&quot;:&quot;USA&quot;,&quot;postalcode&quot;:null,&quot;latitude&quot;:&quot;34.058872&quot;,&quot;longitude&quot;:&quot;-118.245740&quot;,&quot;url&quot;:null,&quot;phone&quot;:null,&quot;creationdate&quot;:&quot;October 12, 2015&quot;,&quot;modificationdate&quot;:null,&quot;type&quot;:null,&quot;id&quot;:&quot;3131&quot;}
+              </p>
+            </div><!--front-->
+         </div><!--card-->`;
+         $('.entry-container').append(mu);
+
+    }
  
  
 }); // $document
