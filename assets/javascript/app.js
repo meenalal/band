@@ -147,6 +147,7 @@ $(document).ready(function() {
             </div><!--front-->
          </div><!--card-->`;
          $('.entry-container').append(mu);
+         $('.inner').parent().child(mu);
 
     }
  
