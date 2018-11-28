@@ -119,8 +119,8 @@ ul {
    visibility: hidden;
 }
 
-/* .loaded #search {
-   background: #e3e3e3 url('https://static-cashmusic.netdna-ssl.com/venues/img/background.jpg');
+.loaded #search {
+   background: #e3e3e3 url('assets/images/foxtheater.jpg');
    background-width: 100%;
    background-repeat: no-repeat;
    background-position: center top;
@@ -129,7 +129,7 @@ ul {
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
-} */
+}
 
 #search {
    position: fixed;
@@ -625,9 +625,9 @@ footer a {
     color: #fff
 }
 
-/* body.loaded.venue {
+body.loaded.venue {
     height: 100%;
-    background: #eee url('https://static-cashmusic.netdna-ssl.com/venues/img/background.jpg');
+    background: #eee url('assets/images/foxtheater.jpg');
     background-width: 100%;
     background-repeat: no-repeat;
     background-position: center top;
@@ -637,7 +637,7 @@ footer a {
     -o-background-size: cover;
     background-size: cover;
     padding: 40px;
-} */
+}
 
 .edit-form {
     text-align: left;
