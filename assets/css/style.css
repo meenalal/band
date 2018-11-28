@@ -120,7 +120,7 @@ ul {
 }
 
 .loaded #search {
-   background: #e3e3e3 url('assets/images/foxtheater.jpg');
+   background: #e3e3e3 url('../images/foxtheater.jpg');
    background-width: 100%;
    background-repeat: no-repeat;
    background-position: center top;
@@ -627,7 +627,7 @@ footer a {
 
 body.loaded.venue {
     height: 100%;
-    background: #eee url('assets/images/foxtheater.jpg');
+    background: #eee url('../images/foxtheater.jpg');
     background-width: 100%;
     background-repeat: no-repeat;
     background-position: center top;

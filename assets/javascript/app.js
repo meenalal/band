@@ -120,7 +120,7 @@ $(document).ready(function() {
     });
 
     var entryreplace = function(){
-
+      
       mu = `<div id="card">
             <div class="front">
               <h1>Walt Disney Concert Hall</h1>
