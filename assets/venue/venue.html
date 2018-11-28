@@ -66,5 +66,55 @@
                 Wright (pending change?)</a></p>
         </footer>
 
+        <script>
+           var header = $('body');
+        
+        var backgrounds = new Array(
+            'url(assets/images/foxtheater.jpg)'
+          , 'url(assets/images/673329.jpg)'
+          , 'url(assets/images/calatrava.jpg)'
+          , 'url(assets/images/fox_inside.jpg)'
+          , 'url(assets/images/Hollywood-Bowl-Fireworks.jpg)'
+          , 'url(assets/images/jsdgfvadshg.jpg)'
+          , 'url(assets/images/nyc.jpg)'
+          , 'url(assets/images/orange.jpg)'
+          , 'url(assets/images/spikey.jpg)'
+          , 'url(assets/images/stage.jpg)'
+          , 'url(assets/images/timessquare.jpg)'
+        );
+        
+        var current = 0;
+        
+        function nextBackground() {
+            current++;
+            current = current % backgrounds.length;
+            header.css('background-image', backgrounds[current]);
+            header.css('background-width', '100%');
+            header.css('height', '100%');
+            header.css('background-repeat', 'no-repeat');
+            header.css('background-position', 'center top');
+            header.css('background-attachment', 'fixed');
+            header.css('-webkit-background-size', 'cover');
+            header.css('-moz-background-size', 'cover');
+            header.css('-o-background-size', 'cover');
+            header.css('background-size', 'cover');
+        }
+        setInterval(nextBackground, 4500);
+     
+        // setInterval(function(){console.log("hello");}, 3000);
+        
+        header.css('background-image', backgrounds[0]);
+        header.css('background-width', '100%');
+        header.css('height', '100%');
+        header.css('background-repeat', 'no-repeat');
+        header.css('background-position', 'center top');
+        header.css('background-attachment', 'fixed');
+        header.css('-webkit-background-size', 'cover');
+        header.css('-moz-background-size', 'cover');
+        header.css('-o-background-size', 'cover');
+        header.css('background-size', 'cover');
+        
+        </script>
+
 </body>
 </html>
