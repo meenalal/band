@@ -1,3 +1,61 @@
+/* particles.js styling starts here */
+/* ---- reset ---- */
+body {
+    margin: 0;
+    font: normal 75% Arial, Helvetica, sans-serif;
+}
+canvas {
+    display: block;
+    vertical-align: bottom;
+} 
+
+/* ---- particles.js container ---- */
+#particles-js {
+    position: absolute;
+    margin: -40px;
+    width: 100%;
+    height: 100%;
+
+    /* background-color: #b61924; */
+    /* background-image: url(""); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+} 
+
+/* ---- stats.js ---- */
+.count-particles {
+    background: #000022;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 80px;
+    color: #13e8e9;
+    font-size: 0.8em;
+    text-align: left;
+    text-indent: 4px;
+    line-height: 14px;
+    padding-bottom: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.js-count-particles {
+    font-size: 1.1em;
+}
+
+#stats,
+.count-particles {
+    -webkit-user-select: none;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.count-particles {
+    border-radius: 0 0 3px 3px;
+}
+/* particles.js styling ends here*/
+
 html {
     height: 100%;
     padding: 0;
@@ -120,7 +178,7 @@ ul {
 }
 
 .loaded #search {
-   background: #e3e3e3 url('../images/foxtheater.jpg');
+   background: #e3e3e3 url('../images/foxtheater_edited.jpg');
    background-width: 100%;
    background-repeat: no-repeat;
    background-position: center top;
@@ -627,7 +685,7 @@ footer a {
 
 body.loaded.venue {
     height: 100%;
-    background: #eee url('../images/foxtheater.jpg');
+    background: #eee url('../images/foxtheater_edited.jpg');
     background-width: 100%;
     background-repeat: no-repeat;
     background-position: center top;
